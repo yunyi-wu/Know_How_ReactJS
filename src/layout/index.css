@@ -1,0 +1,33 @@
+.layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    height: 100%;
+    width: 100%;
+}
+
+.layout > div{
+    flex: 1;
+    height: 100%;
+    padding: 2rem 1rem;
+}
+
+.layout > div:first-child{
+    border-right: 1px solid #999;
+    flex: 0.5;
+}
+
+.layout > div:last-child{
+    font-size: 20px;
+}
+
+.cardMenu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardMenu .card {
+    min-width: 49%;
+    margin-bottom: 2%;
+}
